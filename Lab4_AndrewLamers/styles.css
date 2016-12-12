@@ -1,0 +1,121 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+@media screen and (max-width: 960px) {
+        height: auto;
+        padding: 15px;
+    }
+img.middle{
+    vertical-align: middle;
+}
+header{
+    padding: 1%;
+}
+a{
+    color:inherit;
+}
+body{
+	font-size:0.825em;
+	color:#fcfcfc;
+	background-color:#355664;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+hd1{
+    align-content: center;
+    color: aliceblue;
+    font-family:"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	font-size:600%;
+	text-transform:uppercase;
+}
+
+h2{
+    font-family:"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	font-size:200%;
+	font-weight:normal;
+    text-align: center;
+	letter-spacing:0.01em;
+	text-transform:uppercase;
+}
+
+
+.line{
+	height:1px;
+    background-color:#15242a;
+	border-bottom:2% solid #416371;
+	margin:1em;
+	overflow:hidden;
+}
+
+nav{
+	background:url(img/gradient_light.jpg) repeat-x 50% 50% #f8f8f8;
+	padding:0 4px;
+    border-radius:10px;
+	top:160px;
+	border:1px solid #FCFCFC;
+	-moz-box-shadow:0 1px 1px #333333;
+	-webkit-box-shadow:0 1px 1px #333333;
+	box-shadow:0 1px 1px #333333;
+}
+
+
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+li{
+	display:inline;
+    border-radius:0%;
+    color:#565656;
+	display:block;
+	float:left;
+	font-size:1.25em;
+	font-weight:bold;
+	margin:.1% 8%;
+	padding:.1% .1% .1%;
+	text-shadow:0 1px 1px white;
+	text-transform:uppercase;
+}
+
+li:hover{
+	text-decoration:none;
+	background-color:#ffffff;
+}
+
+article{
+    padding:20px;
+	background-color:#213E4A;
+    border-radius:0%;
+    width: 20%;
+	margin:1em 0;
+	text-shadow:0 2px 0 black;
+    float:left;
+    align-items: center;
+}
+
+article2{
+    display:inline-block;
+    float: right;
+    align-content: center;
+    padding: 1%;
+	background-color:#213E4A;
+    border-radius:0%;
+    width:73%;
+    margin:1em 0;
+}
+profile{
+    padding-left: 5%;
+}
+resume{
+    padding-left: 12%;
+}
+resources{
+    padding-left: 25%;
+}
